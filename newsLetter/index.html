@@ -1,0 +1,72 @@
+<!--
+
+== PLEASE FORK THIS CODEPEN TO CREATE YOUR OWN IMPLEMENTATION ==
+
+Instructions:
+
+In the HTML pane, add the necessary markup to recreate the newsletter component depicted in 
+the image located at the top-right corner of the page. Style appropriately in the CSS pane.
+
+This component should be fluid, meaning it will adjust to fit the width of its parent container.
+
+We expect this exercise to take between 30-45 minutes, but take the time you need to submit 
+work you're happy with.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>News Letter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>free email newsletter</h2>
+      </div>
+      <p class="content">
+        Let About.com send you the latest from our Neurology Expert
+      </p>
+      <form action="" class="main-form">
+        <input
+          type="checkbox"
+          id="treatment"
+          name="treatment"
+          value="treatment"
+        />
+        <label for="treatment">Treatment Options</label>
+        <br />
+        <input
+          type="checkbox"
+          id="specialty"
+          name="specialty"
+          value="specialty"
+        />
+        <label for="specialty">Specialty Information</label>
+        <br />
+        <input type="text" placeholder="Your email address" />
+
+        <div class="cta">
+          <button
+            class="btn btn-link btn-xs"
+            type="submit"
+            name="action"
+            value="delete"
+          >
+            <i class="fa fa-star text-danger"></i>
+            sign up
+            <i class="fa fa-star text-danger"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
